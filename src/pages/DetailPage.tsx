@@ -1,6 +1,7 @@
 import { BsArrowLeft } from "react-icons/bs";
 import type { PageName } from "../App";
 import useCountry from "../hooks/useCountry";
+import Loader from "../components/Loader";
 
 interface Props {
   country_name: string;
@@ -9,7 +10,7 @@ interface Props {
 
 const DetailPage = ({ country_name, onPageSelect }: Props) => {
   const { data, isLoading, isError } = useCountry(country_name);
-  if (isLoading) return <p>Loading...</p>;
+  if (isLoading) return <Loader />;
   if (isError) return <p>SomeError accured</p>;
   return (
     <div className="space-y-10">
@@ -67,7 +68,7 @@ const DetailPage = ({ country_name, onPageSelect }: Props) => {
                 </span>
               </div>
             </div>
-            <div>
+            <div className="grid gap-2">
               <div className="flex gap-2">
                 <span className="font-bold dark:text-d-Text">
                   Top Level Domain:{" "}

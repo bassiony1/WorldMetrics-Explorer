@@ -1,6 +1,7 @@
 import type { PageName } from "../App";
 import useCountries from "../hooks/useCountries";
 import Card from "./Card";
+import Loader from "./Loader";
 interface Props {
   filter: string;
   search: string;
@@ -15,7 +16,7 @@ const CardList = ({ filter, onPageSelect, search }: Props) => {
       : data?.filter((c) => {
           return c.name.common.toLowerCase().includes(search.toLowerCase());
         });
-  if (isLoading) return <p className="py-60 text-center">Loading...</p>;
+  if (isLoading) return <Loader />;
   if (error) return <p>error</p>;
 
   return (

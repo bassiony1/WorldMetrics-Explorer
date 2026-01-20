@@ -28,9 +28,7 @@ const MainPage = ({ onPageSelect }: Props) => {
       </div>
       <CardList filter={filter} onPageSelect={onPageSelect} search={search} />
 
-      <button onClick={() => onPageSelect("detail", "Belgium")}>
-        go to Detail
-      </button>
+    
     </div>
   );
 };
