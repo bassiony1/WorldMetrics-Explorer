@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/bassiony1/WorldMetrics-Explorer](https://github.com/bassiony1/WorldMetrics-Explorer)
+- Live Site URL: [https://world-metrics-explorer.vercel.app/](https://world-metrics-explorer.vercel.app/)
 
 ## My process
 
