@@ -1,6 +1,6 @@
-# Frontend Mentor - Weather app solution
+# Frontend Mentor - REST Countries API with color theme switcher solution
 
-This is a solution to the [Weather app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/weather-app-K1FhddVm49). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,29 +19,30 @@ This is a solution to the [Weather app challenge on Frontend Mentor](https://www
 
 Users should be able to:
 
-- Search for weather information by entering a location in the search bar
-- View current weather conditions including temperature, weather icon, and location details
-- See additional weather metrics like "feels like" temperature, humidity percentage, wind speed, and precipitation amounts
-- Browse a 7-day weather forecast with daily high/low temperatures and weather icons
-- View an hourly forecast showing temperature changes throughout the day
-- Switch between different days of the week using the day selector in the hourly forecast section
-- Toggle between Imperial and Metric measurement units via the units dropdown
-- Switch between specific temperature units (Celsius and Fahrenheit) and measurement units for wind speed (km/h and mph) and precipitation (millimeters) via the units dropdown
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- See all countries from the API on the homepage
+- Search for a country using an `input` field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
+- Toggle the color scheme between light and dark mode _(optional)_
 
 ### Screenshot
 
-![](screenshots/image1.png)
-![](screenshots/image2.png)
-![](screenshots/image3.png)
-![](screenshots/image4.png)
-![](screenshots/image5.png)
+![](<screenshots/Screenshot(16).png>)
+![](<screenshots/Screenshot(17).png>)
+![](<screenshots/Screenshot(18).png>)
+![](<screenshots/Screenshot(19).png>)
+![](<screenshots/Screenshot(20).png>)
+![](<screenshots/Screenshot(21).png>)
+![](<screenshots/Screenshot(22).png>)
+![](<screenshots/Screenshot(23).png>)
+![](<screenshots/Screenshot(24).png>)
+![](<screenshots/Screenshot(25).png>)
 
 ### Links
 
-- Solution URL: [https://github.com/bassiony1/weather-app](https://github.com/bassiony1/weather-app)
-- Live Site URL: [https://weather-app-alpha-six-89.vercel.app/](https://weather-app-alpha-six-89.vercel.app/)
+- Solution URL: []()
+- Live Site URL: []()
 
 ## My process
 
@@ -50,12 +51,12 @@ Users should be able to:
 - Semantic HTML5 markup
 - Tailwind CSS
 - Mobile-first workflow
-- [Redux toolkit]('http://redux-toolkit.js.org/') - State Management
+- [tanstack query]('https://tanstack.com/') - Server State Management
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
 
-it was a fun project to play with redux toolkit for state management on a small project and tailwind customization
+it was a fun project to play with server-state using react query and tailwind customization for dark and light mode
 
 ## Author
 
